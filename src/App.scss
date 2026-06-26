@@ -1,0 +1,24 @@
+@import "react-big-calendar/lib/sass/styles";
+@import "react-big-calendar/lib/addons/dragAndDrop/styles";
+
+.app-container {
+    background-color: #f4f4f4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-manager {
+    width: 90vw;
+    height: 85vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+

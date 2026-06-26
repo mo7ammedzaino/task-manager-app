@@ -1,0 +1,29 @@
+.task-tracker{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+
+    .tasks-count{
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        width: 100%;
+
+        .meeting-count{
+            background-color: #B3E0FF;
+            padding: .3rem 1rem;
+            border-radius: .2rem;
+        }
+        .event-count{
+            background-color: #FFD5A0;
+            padding: .3rem 1rem;
+            border-radius: .2rem;
+        }
+        .important-count{
+            background-color: #FFB3B3;
+            padding: .3rem 1rem;
+            border-radius: .2rem;
+        }
+    }
+}

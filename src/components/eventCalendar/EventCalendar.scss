@@ -1,0 +1,16 @@
+.calendar {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+
+  .rbc-event {
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  }
+}

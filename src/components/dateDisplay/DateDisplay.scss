@@ -1,0 +1,17 @@
+.date-display {
+  .date {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .date-large {
+      font-size: 4.5rem;
+      font-weight: bold;
+    }
+
+    .date-light-text {
+      color: #898989;
+      font-size: 1.2rem;
+    }
+  }
+}

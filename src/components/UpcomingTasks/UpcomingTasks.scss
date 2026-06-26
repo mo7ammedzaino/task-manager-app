@@ -1,0 +1,54 @@
+.upcoming-tasks {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+
+    .title {
+        margin-bottom: 1rem;
+    }
+
+    .tasks-list {
+        overflow-y: scroll;
+        height: 18rem;
+        overflow-y: scroll;
+
+        .task-info {
+            display: grid;
+            grid-template-columns: 1rem auto;
+
+            .task-details {
+                position: relative;
+                border-left: 1px solid #f2f2f2;
+                padding-left: 2rem;
+                padding-bottom: .5rem;
+                padding-top: .5rem;
+
+                .task-icon {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    transform: translateX(-50%);
+                    background-color: white;
+                    padding: .5rem 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+
+                .task-name{
+                    // opacity: .7;
+                    font-weight: 300;
+                }
+
+                .task-date {
+                    opacity: .5;
+                    margin-top: .5rem;
+                    padding: .3rem .8rem;
+                    background-color: #f2f2f2;
+                    border-radius: .5rem;
+                }
+            }
+        }
+    }
+}
